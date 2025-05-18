@@ -56,8 +56,3 @@ async def asteroids(*args):
     ]
     results = await asyncio.gather(*tasks)
     return results
-
-
-data = ['1.jpg']
-print(asyncio.run(asteroids(*data)))
-
